@@ -1,0 +1,9 @@
+C:\Users\user\source\.CoreProjects\BooksLibrary\BooksData\bin\Debug\netcoreapp3.1\BooksData.deps.json
+C:\Users\user\source\.CoreProjects\BooksLibrary\BooksData\bin\Debug\netcoreapp3.1\BooksData.dll
+C:\Users\user\source\.CoreProjects\BooksLibrary\BooksData\bin\Debug\netcoreapp3.1\BooksData.pdb
+C:\Users\user\source\.CoreProjects\BooksLibrary\BooksData\obj\Debug\netcoreapp3.1\BooksData.csprojAssemblyReference.cache
+C:\Users\user\source\.CoreProjects\BooksLibrary\BooksData\obj\Debug\netcoreapp3.1\BooksData.AssemblyInfoInputs.cache
+C:\Users\user\source\.CoreProjects\BooksLibrary\BooksData\obj\Debug\netcoreapp3.1\BooksData.AssemblyInfo.cs
+C:\Users\user\source\.CoreProjects\BooksLibrary\BooksData\obj\Debug\netcoreapp3.1\BooksData.csproj.CoreCompileInputs.cache
+C:\Users\user\source\.CoreProjects\BooksLibrary\BooksData\obj\Debug\netcoreapp3.1\BooksData.dll
+C:\Users\user\source\.CoreProjects\BooksLibrary\BooksData\obj\Debug\netcoreapp3.1\BooksData.pdb

@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using Microsoft.AspNetCore.Identity
+@using BooksLibrary.Areas.Identity.Data
+
+@inject UserManager<BooksLibraryUser> userManager
+
+<div class="welcome">
+    <h2>Welcome @userManager.GetUserName(User)!</h2>
+</div>
+
+<div class="flex-container">
+    <!-- the first card -->
+    <div class="card card_style">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a class="btn btn-primary" asp-controller="Catalog" asp-action="Index">See Catalog</a>
+        </div>
+    </div>
+    <!-- the second card -->
+    <div class="card card_style">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a class="btn btn-primary" asp-controller="Patron" asp-action="Index">See Patrons</a>
+        </div>
+    </div>
+    <!-- the third card -->
+    <div class="card card_style">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="https://twitter.com/s2a_winneri" class="btn btn-primary">See Me</a>
+        </div>
+    </div>
+</div>
